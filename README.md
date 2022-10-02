@@ -1,6 +1,6 @@
 # Compostables
 
-Compostables is a server-side mod that allows you to compost 16 more items.
+Compostables is a server-side mod that allows you to compost 16 additional items.
 
 ## Composting chance (per item)
 | 30% | 50% | 65% | 85% | 100% |
