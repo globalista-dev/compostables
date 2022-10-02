@@ -27,14 +27,14 @@ public class CompostMixin extends Block {
     private static void injectCompostable(CallbackInfo info) {
         CompostMixin.invokeRegisterCompostableItem(0.3f, ROTTEN_FLESH);
         CompostMixin.invokeRegisterCompostableItem(0.3f, CHORUS_FRUIT);
-        CompostMixin.invokeRegisterCompostableItem(0.5f, CHORUS_FLOWER);
-        CompostMixin.invokeRegisterCompostableItem(0.5f, CHORUS_PLANT);
+        CompostMixin.invokeRegisterCompostableItem(0.3f, CHORUS_FLOWER);
+        CompostMixin.invokeRegisterCompostableItem(0.3f, CHORUS_PLANT);
         CompostMixin.invokeRegisterCompostableItem(0.5f, SLIME_BALL);
         CompostMixin.invokeRegisterCompostableItem(0.5f, SCUTE);
         CompostMixin.invokeRegisterCompostableItem(0.5f, INK_SAC);
         CompostMixin.invokeRegisterCompostableItem(0.5f, GLOW_INK_SAC);
         CompostMixin.invokeRegisterCompostableItem(0.5f, FERMENTED_SPIDER_EYE);
-        CompostMixin.invokeRegisterCompostableItem(0.5f, RABBIT_FOOT);
+        CompostMixin.invokeRegisterCompostableItem(0.64f, RABBIT_FOOT);
         CompostMixin.invokeRegisterCompostableItem(0.65f, EGG);
         CompostMixin.invokeRegisterCompostableItem(0.65f, TURTLE_EGG);
         CompostMixin.invokeRegisterCompostableItem(0.85f, POPPED_CHORUS_FRUIT);
