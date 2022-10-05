@@ -28,16 +28,22 @@ public class CompostablesMixin extends Block {
         CompostablesMixin.invokeRegisterCompostableItem(0.3f, CHORUS_FRUIT);
         CompostablesMixin.invokeRegisterCompostableItem(0.3f, CHORUS_FLOWER);
         CompostablesMixin.invokeRegisterCompostableItem(0.3f, CHORUS_PLANT);
+        CompostablesMixin.invokeRegisterCompostableItem(0.3f, POISONOUS_POTATO);
+        CompostablesMixin.invokeRegisterCompostableItem(0.3f, SPIDER_EYE);
+
         CompostablesMixin.invokeRegisterCompostableItem(0.5f, SLIME_BALL);
         CompostablesMixin.invokeRegisterCompostableItem(0.5f, SCUTE);
         CompostablesMixin.invokeRegisterCompostableItem(0.5f, INK_SAC);
         CompostablesMixin.invokeRegisterCompostableItem(0.5f, GLOW_INK_SAC);
         CompostablesMixin.invokeRegisterCompostableItem(0.5f, FERMENTED_SPIDER_EYE);
+
         CompostablesMixin.invokeRegisterCompostableItem(0.65f, RABBIT_FOOT);
         CompostablesMixin.invokeRegisterCompostableItem(0.65f, EGG);
         CompostablesMixin.invokeRegisterCompostableItem(0.65f, TURTLE_EGG);
+
         CompostablesMixin.invokeRegisterCompostableItem(0.85f, POPPED_CHORUS_FRUIT);
         CompostablesMixin.invokeRegisterCompostableItem(0.85f, HONEYCOMB);
+
         CompostablesMixin.invokeRegisterCompostableItem(1f, GLISTERING_MELON_SLICE);
         CompostablesMixin.invokeRegisterCompostableItem(1f, GOLDEN_CARROT);
     }
