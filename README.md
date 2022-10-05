@@ -9,4 +9,5 @@ Compostables is a server-side mod that allows you to compost 16 additional items
 | Chorus Fruit | Scute | Turtle Egg | Honeycomb | Golden Carrot |
 | Chorus Flower | Ink Sac | Rabbit Foot |
 | Chorus Plant | Glow Ink Sac |
-| | Fermented Spider Eye |
+| Poisonous Potato | Fermented Spider Eye |
+| Spider Eye |
