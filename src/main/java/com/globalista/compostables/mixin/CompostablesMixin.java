@@ -24,6 +24,9 @@ public class CompostablesMixin extends Block {
 
     @Inject(at = @At("HEAD"), method = "registerDefaultCompostableItems()V")
     private static void injectCompostable(CallbackInfo info) {
+
+        CompostablesMixin.invokeRegisterCompostableItem(0.1f, BAMBOO);
+
         CompostablesMixin.invokeRegisterCompostableItem(0.3f, ROTTEN_FLESH);
         CompostablesMixin.invokeRegisterCompostableItem(0.3f, CHORUS_FRUIT);
         CompostablesMixin.invokeRegisterCompostableItem(0.3f, CHORUS_FLOWER);
